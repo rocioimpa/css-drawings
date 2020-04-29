@@ -1,0 +1,87 @@
+body {
+    background-color: #18324c;
+}
+
+.container, .eye, .right, .bright, .nose, .head, .ear, .in-ear, .snout {
+    position: absolute;
+}
+
+.snout {
+    top: 105px;
+    left: 85px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: rgb(230, 191, 154); 
+}
+
+.head {
+    top: 55px;
+    left: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(80, 57, 35);
+}
+
+.ear {
+    top: 55px;
+    left: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: rgb(80, 57, 35);
+}
+
+.in-ear {
+    top: 60px;
+    left: 65px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgb(204, 158, 195);
+}
+
+.bright {
+    top: 100px;
+    left: 85px;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background: white;
+}
+
+.eye {
+    top: 100px;
+    left: 80px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: black;
+}
+
+.eye.right {
+    transform: translateX(50px);
+}
+
+.bright.right {
+    transform: translateX(50px);
+}
+
+.ear.right {
+    transform: translateX(70px);
+}
+
+.in-ear.right {
+    transform: translateX(70px);
+}
+
+.nose {
+    top: 110px;
+    left: 105px;
+    width: 8px;
+    height: 5px;
+    border-radius: 100%;
+    background: black;
+}
+
